@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form Challenge</title>
+</head>
+
+<body>
+    <main>
+        <h1>Create Form Challenge:</h1>
+
+        <form>
+            <table>
+                <tr>
+                    <td>
+                        <p>Please share your personal details here:</p>
+                        <fieldset>
+                            <legend>Personal Information</legend>
+
+                            <label for="fname">First Name:</label><br />
+                            <input type="text" id="fname" name="fname" required /><br /><br />
+
+                            <label for="lname">Last Name:</label><br />
+                            <input type="text" id="lname" name="lname" required /><br /><br />
+
+                            <label for="birth">Birthday:</label><br />
+                            <input type="date" id="birth" name="birth" required /><br /><br />
+                        </fieldset>
+                        <p>Can you tell us a little more?</p>
+
+                        <fieldset>
+                            <legend>Further Information</legend>
+
+                            <label for="color">Favorite Color:</label>
+                            <input type="color" id="color" name="color" /><br /><br />
+
+                            <label for="pet">What's Your Favorite Pet?</label><br />
+                            <input type="text" id="pet" name="pet" /><br /><br />
+
+                            <label for="like">Do you like:</label><br />
+                            <input type="radio" name="like" id="mountain" value="mountain" />
+                            <label for="mountain">Mountain</label>
+
+                            <input type="radio" name="like" id="beach" value="beach" />
+                            <label for="beach">Beach</label>
+                        </fieldset>
+                        <br />
+                        <button type="submit">Submit</button>
+                    </td>
+                </tr>
+            </table>
+        </form>
+    </main>
+</body>
+
+</html>
