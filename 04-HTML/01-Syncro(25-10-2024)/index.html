@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+
+</head>
+
+<body>
+
+    <div class="text-center text-5xl tracking-wide h-screen py-20">
+
+        <!-- Using position -->
+        <div>
+            <span class="font-extrabold relative">
+                Organize
+                <span class="absolute bg-red-300 h-6 w-full rounded-xl z-[-1] bottom-0 -left-1.5 "></span>
+            </span>
+            everything in your life
+        </div>
+
+        <br>
+
+        <!-- Using after pseudo-element -->
+        <div>
+            <span
+                class="font-extrabold relative after:w-full after:h-6 after:rounded-full after:bg-blue-300 after:z-[-1] after:absolute after:-left-1.5 after:bottom-0">
+                Organize
+            </span>
+            everything in your life
+        </div>
+
+    </div>
+
+
+</body>
+
+</html>
